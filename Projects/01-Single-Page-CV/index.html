@@ -4,29 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Single Page CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
+    * {
+      margin: 0;
+    }
+
     body {
-      margin: 30px 0px;
       height: 100vh;
       background: #f0f0f0;
       display: flex;
       justify-content: center;
       align-items: center;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    hr {
+      margin: 10px 0px;
     }
 
     #content {
       background: #fff;
-      padding: 20px;
+      padding: 10px 20px;
       border-radius: 8px;
       box-shadow: 0px 4px 10px rgba(0, 0, 0, .1);
     }
 
+    .title {
+      font-size: 26px;
+      margin: 20px 0px 5px;
+    }
+
     .section-title {
-      color: #28A745;
+      color: #00991b;
+      font-size: 16px;
+      font-weight: 450;
+      margin: 10px 0px 8px;
     }
 
     .subsection-title {
-      color: #007BFF;
+      color: #0d6bcf;
+      font-size: 18px;
+      font-weight: 450;
+      margin: 5px 0px 8px;
+    }
+
+    .info {
+      font-size: 14px;
+      margin-bottom: 12px;
     }
   </style>
 </head>
@@ -41,13 +66,13 @@
 
     <div id="skills">
       <h2 class="section-title">Skills</h2>
-      <p class="info-skills">HTML, CSS (In progress)</p>
+      <p class="info">HTML, CSS (In progress)</p>
     </div>
 
     <div id="Education">
       <h2 class="section-title">Education</h2>
       <h3 class="subsection-title">Liceo ***** ** ******* ***, Bogotá - Once</h3>
-      <p>Currently studying</p>
+      <p class="info">Currently studying</p>
     </div>
 
     <div id="experience">
@@ -60,7 +85,6 @@
       <a href="https://github.com/ddanii-dev" target="_blank">Github</a>
     </div>
     <hr>
-
   </div>
 </body>
 </html>
