@@ -2,7 +2,9 @@
 
 Curriculum vitae of **Daniel López**, a frontend developer in Bogotá, Colombia
 
-## Screenshots
+## Screenshot
+
+![Screenshot of the CV](assets/Screenshot01.PNG)
 
 ## Requirements
 
@@ -12,5 +14,6 @@ Curriculum vitae of **Daniel López**, a frontend developer in Bogotá, Colombia
 - [x] OG tags for better social media sharing.
 - [x] A favicon linked in the head section.
 
+## Link Roadmap.sh
 
 https://roadmap.sh/projects/single-page-cv
